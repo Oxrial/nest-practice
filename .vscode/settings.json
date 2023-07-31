@@ -1,0 +1,28 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    "eslint.format.enable": true,
+    "colorize.languages": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": false,
+        "eslint.autoFixOnSave": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "★★★★★ DARCULA ★★",
+    //   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
